@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar {
+    height: 86px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/11/13/20/keyboard-1385706_1280.jpg);
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: aliceblue;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2015/09/11/08/48/banner-935470_1280.jpg);
+    background-size: cover;
+}
+
+.primary {
+    font-size: 2.0rem;
+    padding: 15px;
+}
+
+#home h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+#home p {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+
+.btn {
+    padding: 6px 20px;
+    background-color: #00373e;
+    color: azure;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    transition: 2s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+.circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+.circle img {
+    width: 8.3rem;
+    height: 8.3rem;
+}
+
+.fcenter {
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: center;
+}
+
+.scenter {
+    font-size: 1.9rem;
+    padding: 12px;
+    text-align: center;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px;
+    margin: 10px;
+    border: inset;
+    border-radius: 20px;
+    background: lavender;
+}
+
+#services .box img {
+    height: 120px;
+
+}
+
+#icon {
+    font-size: x-large;
+    color: green;
+}
+
+#services .box p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.contact {
+    min-height: 30vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/image/buildings-1850129_1280.jpg);
+    background-size: cover;
+}
+
+.contact .content {
+    /* max-width: 800px; */
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+
+.contact .innerLayer {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.container .contactinfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactinfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    font-size: 32px;
+}
+
+.container .contactinfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactinfo .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactform {
+    width: 25%;
+    padding: 30px;
+    background: #b0b0b0;
+    border-radius: 30px;
+}
+
+.contactform h2 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.contactform .inputbox {
+    /* position: relative; */
+    /* position: absolute; */
+    width: 100px;
+    margin-top: 10px;
+
+}
+
+.contactform .inputbox input {
+    width: 300px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #bd0000;
+    outline: none;
+
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+    width: 300px;
+    padding: 5px 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-bottom: 1px solid #333;
+    resize: none;
+}
+
+.contactform .inputbox span {
+    pointer-events: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.contactform .inputbox:focus-within span{
+    color: #bd0000;
+}
+
+.contactform .inputbox textarea{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contactform .inputbox textarea:focus-within{
+    border: 1px solid #bd0000;
+    outline: none;
+}
+
+.contactform .inputbox input:focus{
+    border-bottom: 1px solid #bd0000;
+}
+
+.contactform .inputbox input .btn {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:810px) {
+    #navbar {
+        height: 334px;
+
+    }
+
+    .circle {
+        margin-left: 18rem;
+    }
+    .circle img{
+        margin-left: -7rem;
+      
+        
+    }
+    #navbar ul {
+        padding-top: 20px;
+        
+    }
+    #navbar ul li a {
+        margin-left: 1rem;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+    .container{
+        width: 154%
+    }
+    .contactform{
+width: 300px;
+    }
+    .innerLayer{
+        flex-direction: column;
+    }
+}
