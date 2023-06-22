@@ -302,12 +302,12 @@
     }
 
     .circle {
-        margin-left: 12rem;
+        margin-left: 10rem;
       
     }
     .circle img{
         margin-left: -6rem;
-        height:6.3rem;
+      
        
       
         
@@ -329,8 +329,15 @@
         width: 154%
         
     }
+    .contactform .inputbox input{
+        width: 185%;
+       }
+       .contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 185%;
+}
     .contactform{
-     width: 285px;
+     width: 202px;
     }
     .innerLayer{
         flex-direction: column;
@@ -347,6 +354,7 @@
     #navbar ul li a {
         margin-left: -1rem;
         padding: 3px 13px;
+        flex-direction: row-reverse;
 
     }
     .contact .content h2{
@@ -354,17 +362,17 @@
         padding-left: 5px;
     }
     .container{
-        width: 280%;
+        width: 202%;
     }
     .contactform{
         width: 160%;
        }
        .contactform .inputbox input{
-        width: 150%;
+        width: 185%;
        }
        .contactform .inputbox input,
 .contactform .inputbox textarea{
-    width: 150%;
+    width: 185%;
 }
 
 }
