@@ -382,12 +382,12 @@
 }
 @media screen and (max-width:380px){
     .circle {
-        margin-left: 9rem;
+        margin-left: 11rem;
       
     }
     #navbar ul li a {
         margin-left: -1rem;
-        padding: 3px 9px;
+        padding: 3px 12px;
         flex-direction: row-reverse;
 
     }
@@ -399,14 +399,17 @@
         width: 230%;
     }
     .contactform{
-        width: 125%;
+        width: 150%;
        }
        .contactform .inputbox input{
-        width: 125%;
+        width: 150%;
        }
        .contactform .inputbox input,
 .contactform .inputbox textarea{
-    width: 125%;
+    width: 150%;
 }
+
+}
+@media screen and (max-width:320px){
 
 }
