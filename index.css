@@ -18,7 +18,7 @@
 
 #navbar ul {
     display: flex;
-    font-size: 260px;
+   
 }
 
 #navbar ul li {
@@ -330,7 +330,7 @@
         
     }
     .contactform{
-     width: 300px;
+     width: 285px;
     }
     .innerLayer{
         flex-direction: column;
@@ -349,5 +349,22 @@
         padding: 3px 13px;
 
     }
+    .contact .content h2{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .container{
+        width: 280%;
+    }
+    .contactform{
+        width: 160%;
+       }
+       .contactform .inputbox input{
+        width: 150%;
+       }
+       .contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 150%;
+}
 
 }
